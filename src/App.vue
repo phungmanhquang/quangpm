@@ -6,11 +6,12 @@
   <router-view />
 </template>
 <script>
-import { defineComponent } from "@vue/composition-api";
-
-export default defineComponent({});
+export default {
+  created() {
+    console.log("App run");
+  },
+};
 </script>
-
 <style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
