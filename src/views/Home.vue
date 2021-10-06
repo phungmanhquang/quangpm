@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <div class="bg-gray-500">qưe</div>
+    <div class="bg-gray-500">
+      <icon icon="user-secret" />
+    </div>
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
